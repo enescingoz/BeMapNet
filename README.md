@@ -58,6 +58,13 @@
   pip3 install -r requirement.txt
   ```
 
+- **g. Docker installation.**
+  ```shell
+  cd docker
+  sudo docker build -t bemapnet_docker .
+  sh launch_docker.sh
+  ```
+
 </details>
 
 
